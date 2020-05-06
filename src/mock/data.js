@@ -2,25 +2,27 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Pradhumn | Developer', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Welcome', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Hi, my name is',
+  name: 'Pradhumn Rishishwar',
+  subtitle: "I'm a Web Developer",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  img: 'image.jpg',
+  paragraphOne:
+    'A Full-stack Web Developer with skills such as ReactJS for front-end, Node.js and Express.js for back-end and PostgresQL for database management.',
+  paragraphTwo:
+    "I've created a few websites and am now looking forward to testing my skills and learning new ones while interacting with experienced developers.",
+  paragraphThree: 'Feel free to drop to drop a mail in  case of any inquiries.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -28,30 +30,25 @@ export const aboutData = {
 export const projectsData = [
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'smart-brain-webpage.png',
+    title: 'Smartbrain',
+    info: `A simple website to count the number of faces in a picture.
+          Facial Recognition using API.`,
+    info2: `Front-end using React.js.
+          Back-end using Node.js & Express.js.
+          Hosted on Heroku.`,
+    url: 'http://smartbrain1999.herokuapp.com/',
+    repo: 'https://github.com/lettuceketchup/smartbrain', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'robofriends-webpage.png',
+    title: 'Robofriends',
+    info:
+      'A fully responsive React app that takes users from an API, produces a ranodm profile image for them using another one and allowing you to search through them.',
+    // info2: '',
+    url: 'https://lettuceketchup.github.io/robofriends/',
+    repo: 'https://github.com/lettuceketchup/robofriends', // if no repo, the button will not show up
   },
 ];
 
@@ -59,36 +56,36 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'rishishwarmanu@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: uuidv1(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: uuidv1(),
-      name: 'codepen',
-      url: '',
-    },
+    // {
+    //   id: uuidv1(),
+    //   name: 'twitter',
+    //   url: '',
+    // },
+    // {
+    //   id: uuidv1(),
+    //   name: 'codepen',
+    //   url: '',
+    // },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/pradhumn-rishishwar-440098170/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lettuceketchup/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
