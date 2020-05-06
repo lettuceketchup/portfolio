@@ -21,8 +21,8 @@ export const aboutData = {
   paragraphOne:
     'A Full-stack Web Developer with skills such as ReactJS for front-end, Node.js and Express.js for back-end and PostgresQL for database management.',
   paragraphTwo:
-    "I've created a few websites and am now looking forward to testing my skills and learning new ones while interacting with experienced developers.",
-  paragraphThree: 'Feel free to drop to drop a mail in  case of any inquiries.',
+    "I've created a few websites and now look forward to testing my skills and learning new ones while interacting with experienced developers.",
+  paragraphThree: 'Feel free to drop a mail in  case of any inquiries.',
   resume:
     'https://github.com/lettuceketchup/portfolio/blob/master/examples/resume/PradhumnRishishwar_InternshalaResume.pdf', // if no resume, the button will not show up
 };
