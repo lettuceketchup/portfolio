@@ -23,7 +23,8 @@ export const aboutData = {
   paragraphTwo:
     "I've created a few websites and am now looking forward to testing my skills and learning new ones while interacting with experienced developers.",
   paragraphThree: 'Feel free to drop to drop a mail in  case of any inquiries.',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume:
+    'https://github.com/lettuceketchup/portfolio/blob/master/examples/resume/PradhumnRishishwar_InternshalaResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
