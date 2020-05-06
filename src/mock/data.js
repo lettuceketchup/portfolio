@@ -22,7 +22,7 @@ export const aboutData = {
     'A Full-stack Web Developer with skills such as ReactJS for front-end, Node.js and Express.js for back-end and PostgresQL for database management.',
   paragraphTwo:
     "I've created a few websites and now look forward to testing my skills and learning new ones while interacting with experienced developers.",
-  paragraphThree: 'Feel free to drop me a mail.',
+  paragraphThree: 'Feel free to drop me a mail in case of any inquiries.',
   resume:
     'https://github.com/lettuceketchup/portfolio/blob/master/examples/resume/PradhumnRishishwar_InternshalaResume.pdf', // if no resume, the button will not show up
 };
@@ -46,7 +46,7 @@ export const projectsData = [
     img: 'robofriends-webpage.png',
     title: 'Robofriends',
     info:
-      'A fully responsive React app that takes users from an API, produces a ranodm profile image for them using another one and allowing you to search through them.',
+      'A fully responsive React app that takes users from an API, produces a random profile image for them using another one and allows you to search through them.',
     // info2: '',
     url: 'https://lettuceketchup.github.io/robofriends/',
     repo: 'https://github.com/lettuceketchup/robofriends', // if no repo, the button will not show up
